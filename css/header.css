@@ -1,0 +1,110 @@
+*{
+    resize: both;
+    margin: 0px;
+    outline: none;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+   text-decoration: none;
+}
+#header{
+    width: 100%;
+    height: 70px;  
+    font-size: 15px;
+    position: fixed;
+}
+#header li{
+    text-decoration: none;
+    background-color: bisque;
+}
+#logo{
+    left: 45px;
+    top: 8px;
+    position: absolute;
+}
+.header_top{
+    background-image: url(../IMAGE/black.jpg);
+    height: 67px;
+    padding: 15px 15px 20px 10px;
+    text-align: right;
+    
+}
+#searchform{
+   display: flex;
+   justify-content: end;
+   
+}
+#searchform .item{
+    display:flex;
+    margin-left: -17px;
+    padding: 0px 10px 0px 10px;
+}
+#searchform #register{
+    margin: 5px 5px;
+
+}
+#searchform #register a{
+    color: #FFBC9B;
+}
+#searchform .item .search_textbox{
+    width: 220px;
+    height: 23px;
+    font-size: 23px;
+    color: #FFC3A5;
+    margin-left: 24px;
+    border: solid;
+}
+#searchform .item .search_button a img {
+    height: 30px !important;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: end;
+    height: 23px;
+    margin-top: 7px ;
+    
+}
+#menu ul li {
+    text-transform: lowercase;
+    font-size: 17px;
+    border-right: 1px solid #FFBC9B;
+    padding: 0px 1.5px 0px 1.5px;
+
+}
+#menu ul li a{
+    color: #FFBC9B;
+    font-size: 17px;
+    padding: 1px 7px 1px 7px;
+}
+#menu ul li.cartimg{
+    border-right: none;
+    padding: 0px;
+    margin: -4px 0px 10px 9px;
+    
+}
+#menu ul li.menu_active{
+    background: #704934;
+    height: 18px;
+    border: 1px solid #F9CFB6;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+#menu ul li a.active, #menu ul li a:hover{
+    background: white;
+}
+#menu ul li a.active, #menu ul li:hover a{
+     color: #E0611D;
+}
+#flag{
+    margin-top: 7px;
+}
+#flag img:hover{
+    cursor: pointer;
+}

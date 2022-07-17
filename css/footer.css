@@ -1,0 +1,56 @@
+#footer {
+    background-image: url(../IMAGE/black.jpg);
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    padding: 8px 5px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background-repeat: repeat-x;
+
+  
+}
+#footer .left-footer ul{
+    text-align: left;
+    display: flex;
+}
+#footer .left-footer .item{
+    padding-right: 15px;
+
+}
+#footer .left-footer .item a{
+    width: 20px;
+    height: 18px;
+    font-size: 20px;
+    margin: -3px;
+    color: white;
+    display: block;
+}
+#footer .right-footer{
+    margin-left: auto;
+    padding-right: 20px;
+}
+#footer .right-footer ul{
+    padding-right: 25px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 2px;
+    
+}
+#footer .right-footer ul li{
+    
+    text-transform: none;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+#footer .right-footer ul li a {
+    color: white;
+}
+#footer .right-footer ul li:last-child{
+   border-right: none;
+}
+#footer .right-footer ul li:hover a{
+    color: rgb(245, 239, 236);
+    box-shadow: 0 3px yellow;
+}
